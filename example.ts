@@ -1,16 +1,4 @@
-# enumy
-Enhanced enum for TypeScript
-
-- Installation
-```bash
-npx jsr add jsr:@evex/enumy
-bunx jsr add jsr:@evex/enumy
-deno add jsr:@evex/enumy
-```
-
-- Usage
-```ts
-import { enumy } from "jsr:@evex/enumy";
+import { enumy } from "./mod.ts";
 
 const keys = enumy(
     "LEFT", "RIGHT", "UP", "DOWN"
@@ -23,10 +11,3 @@ console.log(keys.LEFT === keys.RIGHT); // false
 
 console.log(keys.LEFT === 0); // false - Safe
 console.log(keys.LEFT === enumy("LEFT").LEFT); // false - Safe
-```
-
-- License
-MIT
-
-- Author
-    - EdamAmex
