@@ -31,12 +31,12 @@ console.log(keys.LEFT === 0); // false - Safe
 console.log(keys.LEFT === enumy("LEFT").LEFT); // false - Safe
 
 // details: example.ts
+```
 
 - Usage for TypeSafe
 ```
-
-// BRANDED for TypeSafe enumy(...).brand("KEYS") enumy(...).brand("KEYS2")
-
+// BRANDED for TypeSafe
+enumy(...).brand("KEYS") enumy(...).brand("KEYS2")
 ```
 ![BRANDED](./typesafe.png)
 
