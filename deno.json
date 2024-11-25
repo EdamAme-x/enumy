@@ -1,7 +1,7 @@
 {
-    "name": "@evex/enumy",
-    "version": "1.0.0",
-    "exports": {
-        ".": "./mod.ts"
-    }
+  "name": "@evex/enumy",
+  "version": "1.1.0",
+  "exports": {
+    ".": "./mod.ts"
+  }
 }
